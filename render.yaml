@@ -3,15 +3,5 @@ services:
     name: n8n-cloud
     env: docker
     plan: free
-    region: singapore
     docker:
       dockerfilePath: ./Dockerfile
-    envVars:
-      - key: N8N_BASIC_AUTH_ACTIVE
-        value: "true"
-      - key: N8N_BASIC_AUTH_USER
-        value: "longheo75"
-      - key: N8N_BASIC_AUTH_PASSWORD
-        value: "longheo74"
-      - key: N8N_MEMORY_MANAGEMENT_MAX_OLD_SPACE_SIZE
-        value: "384"
